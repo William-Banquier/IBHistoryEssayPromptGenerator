@@ -206,7 +206,7 @@ numberOfQuestions = 2
 
 while True:
 
-    user_input = input("\nPress enter to continue.\nOr write 2 to Generate Some Paper 2 Questions For A Given Unit.\nOr write 3 Generate Some Paper 3 Questions For A Given Unit.\nOr write 4 to change the number of questions per topic.\nOr write genPaper2 to generate a paper 2.\nOr write genPaper3 to generate a paper 3.\nOr write x to exit.\nChoice: ")
+    user_input = input("\nWrite 2 to Generate Some Paper 2 Questions For A Given Unit.\nOr write 3 Generate Some Paper 3 Questions For A Given Unit.\nOr write 4 to change the number of questions per topic.\nOr write genPaper2 to generate a paper 2.\nOr write genPaper3 to generate a paper 3.\nOr write x to exit.\nChoice: ")
     """This is the user input. It is used to determine what the user wants to do."""
 
     clear()
@@ -261,10 +261,6 @@ while True:
         genPaper2()
     elif user_input == "genPaper3":
         genPaper3()
-    elif user_input == "genPaper2PDF":
-        genPaper2(True)
-    elif user_input == "genPaper3PDF":
-        genPaper3(True)
     elif user_input == "x":
         break
     else:
