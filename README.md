@@ -1,21 +1,22 @@
 # IBHistoryEssayPromptGenerator
+
 ## About
 
 For my CAS Project I created a History Essay Question Generator, it generates questions for Paper 2, and For Paper 3 with Europe as the region.
 
 ## How To Install 
 1. [Install Python](https://www.python.org/downloads/)
-    1. You might need to [install PIP (Pip Installs Packages)](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/) ← should be included with python however
+    1. You might need to [install PIP (Pip Installs Packages)](https://www.geeksforgeeks.org/how-to-install-pip-in-macos/) ← should be included with python
 2. Run the following command in your terminal to install the one dependency
     1. `pip install rich` 
-        1. Rich is used for the coloring of the outputs in the terminal which can be helpful when reading large questions!
+        1. [Rich](https://github.com/Textualize/rich) is used for the coloring of the outputs in the terminal which can be helpful when reading large questions!
 3. Download the file
 4. Run the file in your terminal
     1. Go to the folder which stores the file in your terminal 
     2. Run the command, ``python3 historyEssayGenerator.py`` to run the file
 
 ## How To Use
-Now that you have installed and ran the file there should be some text on your screen, it should be simular to this first image: 
+Now that you have installed and ran the file there should be some text on your screen, it should be similar to this first image: 
 ![first_image](/ImagesForREADME/image1.jpg)
 
 Writing the following commands should help you go though the application with joy.
@@ -31,7 +32,7 @@ The command: `genPaper2` will generate two questions from each Paper 2 Topic to 
 The command: `genPaper3` will generate two questions from each Paper 3 Topic to simulate what an exam might look like
 
 ## Final Notes
-All simularity between the questions generated and the actual IB Exam questions are just by chance, the only place in which the information for the questions was taken is from the [syllabus](https://www.holyheart.ca/wp-content/uploads/2016/10/IB-History-Guide-2017.pdf). 
+All similarity between the questions generated and the actual IB Exam questions are just by chance, the only place in which the information for the questions was taken is from the [syllabus](https://www.holyheart.ca/wp-content/uploads/2016/10/IB-History-Guide-2017.pdf). 
 
 Alongside the note above it should be noted that as all question are randomly generated, some might just not make any sense, if that is the case, just skip them.
 
