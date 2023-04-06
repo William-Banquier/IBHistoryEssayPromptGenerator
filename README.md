@@ -37,3 +37,5 @@ All similarity between the questions generated and the actual IB Exam questions 
 Alongside the note above it should be noted that as all question are randomly generated, some might just not make any sense, if that is the case, just skip them.
 
 That along side the fact that this generator cannot prepare students for the questions where quotes are involved are the two main flaws of this program. However, I do think that this is a very strong application for studying, I hope that this app will be helpful to you!
+
+I have created a feedback form, please check it out if you would like to give some feedback: [Link](https://docs.google.com/forms/d/e/1FAIpQLSdkbbVK5zUvz_ENvJZDCXOmML_T35bVAxRuIAqAnS8T-lngwQ/viewform)
